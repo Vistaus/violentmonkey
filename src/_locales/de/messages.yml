@@ -91,7 +91,7 @@ buttonUpdate:
   message: Auf Aktualisierung prüfen
 buttonUpdateAll:
   description: Check all scripts for updates.
-  message: Auf Aktualisierungen prüfen
+  message: Alle auf Aktualisierungen prüfen
 buttonVacuum:
   description: Button to vacuum extension data.
   message: Datenbank säubern
@@ -146,6 +146,12 @@ editNavSettings:
 editNavValues:
   description: Label of values tab in script editor.
   message: Werte
+editValueAll:
+  description: Button to show/edit the entire script value storage.
+  message: Alles
+editValueAllHint:
+  description: Tooltip for the 'all' button.
+  message: Gesamten Skriptwert-Speicher anzeigen/bearbeiten
 editValueCancel:
   description: Button to cancel modification of a script value.
   message: Abbrechen
@@ -179,7 +185,7 @@ filterLastUpdateOrder:
   message: Zeitpunkt der letzten Aktualisierung
 filterScopeAll:
   description: Option in dashboard's search scope filter.
-  message: Alle
+  message: Alles
 filterScopeCode:
   description: Option in dashboard's search scope filter.
   message: Code
@@ -243,7 +249,9 @@ labelAutoReloadCurrentTab:
   message: Nach dem Ein-/Ausschalten eines Skripts den aktuellen Tab neu laden
 labelAutoUpdate:
   description: Option to allow automatically checking scripts for updates
-  message: 'Auf Skriptupdates jede(n) $1Tag(e) prüfen, 0 eingeben um zu deaktivieren'
+  message: >-
+    Auf Skript-Aktualisierungen jede(n) $1Tag(e) prüfen, 0 eingeben um zu
+    deaktivieren
 labelBadge:
   description: Label for option to show number on badge.
   message: 'Auf dem Symbol anzeigen: '
@@ -283,6 +291,9 @@ labelDownloadURL:
 labelEditValue:
   description: Label shown in the panel to edit a script value.
   message: Skriptwert bearbeiten
+labelEditValueAll:
+  description: Label shown in the panel to edit the entire script value storage.
+  message: Skriptwert-Speicher bearbeiten
 labelEditor:
   description: Label for Editor settings
   message: Editor
@@ -586,7 +597,7 @@ msgUpdating:
   message: Aktualisiere...
 noValues:
   description: Label shown when there is no value for current script.
-  message: Kein gespeicherter Wert
+  message: Ohne gespeicherten Wert
 optionPopupEnabledFirst:
   description: Option to show enabled scripts first in popup.
   message: Zuerst aktiviert
@@ -625,6 +636,9 @@ valueLabelKey:
 valueLabelValue:
   description: Label for value of a script value.
   message: Wert (als JSON serialisiert)
+valueLabelValueAll:
+  description: Label for input of entire script value storage.
+  message: Alle Werte (als JSON serialisiert)
 visitWebsite:
   description: Label for link to open Violentmonkey website.
   message: Webseite besuchen

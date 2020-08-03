@@ -143,6 +143,12 @@ editNavSettings:
 editNavValues:
   description: Label of values tab in script editor.
   message: 数据
+editValueAll:
+  description: Button to show/edit the entire script value storage.
+  message: ''
+editValueAllHint:
+  description: Tooltip for the 'all' button.
+  message: ''
 editValueCancel:
   description: Button to cancel modification of a script value.
   message: 取消
@@ -278,6 +284,9 @@ labelDownloadURL:
 labelEditValue:
   description: Label shown in the panel to edit a script value.
   message: 编辑数据
+labelEditValueAll:
+  description: Label shown in the panel to edit the entire script value storage.
+  message: ''
 labelEditor:
   description: Label for Editor settings
   message: 编辑器
@@ -616,6 +625,9 @@ valueLabelKey:
 valueLabelValue:
   description: Label for value of a script value.
   message: 键值（作为JSON序列化）
+valueLabelValueAll:
+  description: Label for input of entire script value storage.
+  message: ''
 visitWebsite:
   description: Label for link to open Violentmonkey website.
   message: 访问网站
